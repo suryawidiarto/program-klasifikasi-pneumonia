@@ -1,0 +1,87 @@
+body {
+  background-color: #28b5b5;
+}
+
+#all_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#main_container {
+  background-color: #ccffbd;
+  padding: 10px;
+  margin: 10pt;
+  border-radius: 10pt;
+}
+
+#loader {
+  text-align: center;
+  display: none;
+  padding-bottom: 10pt;
+}
+
+#container_preview_result {
+  background-color: #fff;
+  border-radius: 10pt;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 10pt;
+}
+
+#container_preview {
+  display: none;
+  text-align: center;
+  padding: 10pt;
+}
+
+#container_result {
+  display: none;
+  text-align: center;
+  padding-bottom: 1pt;
+}
+
+#container_upload {
+  padding-bottom: 10pt;
+  background-color: #fff;
+  border-radius: 10pt;
+  font-weight: 500;
+  color: #289672;
+}
+
+#predict {
+  margin-left: 25%;
+  margin-right: 25%;
+  background-color: #ccffbd;
+  border-radius: 10pt;
+  font-size: medium;
+  font-weight: 600;
+  color: #289672;
+  padding: 1pt;
+}
+
+#title_header {
+  background-color: #fff;
+  padding-left: 5pt;
+  padding-right: 5pt;
+  padding-bottom: 2pt;
+  border-radius: 10pt;
+  font-size: 24pt;
+  font-weight: 600;
+  color: #289672;
+}
+
+#select_image {
+  color: #289672;
+}
+
+#klasifikasi {
+  background-color: #28b5b5;
+  color: #fff;
+  font-weight: 600;
+}
+#klasifikasi:hover {
+  background-color: #ffa45b;
+}
