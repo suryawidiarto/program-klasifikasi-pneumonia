@@ -8,9 +8,14 @@ $(document).ready(function () {
         $("#image_preview").attr("src", e.target.result).width(256).height(256);
       };
       reader.readAsDataURL(input.files[0]);
+
+      $("#loader").hide();
+      $("#container_preview").fadeIn((duration = 1000));
+    } else {
+      $("#loader").hide();
+      $("#container_result").fadeOut((duration = 500));
+      $("#container_preview").fadeOut((duration = 500));
     }
-    $("#loader").hide();
-    $("#container_preview").fadeIn((duration = 1000));
   }
   $("#select_image").change(function () {
     $("#container_result").fadeOut((duration = 500));
