@@ -46,6 +46,10 @@ $(document).ready(function () {
             $("#predict").text("Hasil Klasifikasi : Normal");
             $("#loader").hide();
             $("#container_result").fadeIn((duration = 1000));
+          } else {
+            $("#predict").text("Terjadi Error");
+            $("#loader").hide();
+            $("#container_result").fadeIn((duration = 1000));
           }
         },
       });
